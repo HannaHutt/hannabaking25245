@@ -126,6 +126,23 @@ body{
 img{
     width: 100%;
 }
+.presentacion-logo img{
+    transition: transform 3s ease-in-out;
+}
+.presentacion-logo img:hover{
+   
+    transform: rotate(360deg) scale(1.5);
+
+
+}
+.Carta img{
+    transition: transform 2s ease-in-out;
+}
+.Carta img:hover{
+    transform: scale(1.5);
+
+}
+
 .clasica{
     /*grid-area: clasica;*/
     grid-column: 2 / 3;
@@ -176,10 +193,10 @@ img{
     flex-wrap: wrap;
     animation: animacion1 1 ease-in-out 5s;
 }
-.Logo{
+/*.Logo{
     animation: ruedaloca 4s infinite alternate cubic-bezier(0.175, 0.885, 0.32, 1.275); 
 
-}
+}*/
 
 @media screen and (max-width:720) {
     .Carta{
@@ -208,7 +225,7 @@ img{
 
     }
 }
-@keyframes animacion1{
+/*@keyframes animacion1{
   0%{
       width: 100px;
 
@@ -237,4 +254,5 @@ img{
  to{
      transform: rotate(0deg);
  }
-}
+}*/
+
